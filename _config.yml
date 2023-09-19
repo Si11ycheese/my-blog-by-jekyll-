@@ -65,15 +65,14 @@ google_analytics:
 #
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
-#
-theme_mode: light|dark
+theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-#img_cdn: "https://chirpy-img.netlify.app"
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/common/avatar.png"
@@ -100,22 +99,6 @@ comments:
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
-
-###<script src="https://giscus.app/client.js"
-   #     data-repo="Si11ycheese/my-blog-by-jekyll-"
-    #    data-repo-id="R_kgDOKUsOCw"
-     #   data-category="Announcements"
-      #  data-category-id="DIC_kwDOKUsOC84CZbEz"
-       # data-mapping="pathname"
-        #data-strict="0"
-#        data-reactions-enabled="1"
- #       data-emit-metadata="0"
-  #      data-input-position="bottom"
-   #     data-theme="preferred_color_scheme"
-    #    data-lang="zh-CN"
-     #   crossorigin="anonymous"
-
-
 
 
 
