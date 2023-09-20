@@ -5,6 +5,7 @@ date: 2023-09-20 16:46:00 +0800
 categories: [About,Me]
 tags: [Sillycheese]
 pin: true
+music-id: 458725076
 image:
   path: /common/about_me.jpg
   lqip: /path/to/lqip-file
