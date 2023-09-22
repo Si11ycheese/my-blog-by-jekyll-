@@ -6,7 +6,7 @@ categories: [数据结构和算法相关,关于DFS与BFS]
 tags: [BFS,C++,Algorithm,queue,面向对象] 
 ---
 
-## 废话环节
+## Some Words
 
 作为一个刚刚步入大二的没几周的大学生，从第二周就被要求去搞定最短路径，解决DFS和BFS算法是吧。
 
@@ -18,9 +18,7 @@ tags: [BFS,C++,Algorithm,queue,面向对象]
 
 
 
-## 题目浏览
-
-
+## Problem Description
 
 以一个M×N的长方阵表示迷宫。设计一个程序，对任意设定的迷宫，求出一条从入口到出口的最佳通路。**
 **
@@ -72,7 +70,7 @@ tags: [BFS,C++,Algorithm,queue,面向对象]
 
 没有通路
 
-## 对于该题目的思考过程
+## Thinking Process about this problem
 
 是的，第一眼看到这个题目完全懵逼。
 
@@ -214,11 +212,11 @@ int main() {
 
 **所以为什么不尝试BFS呢（喜**
 
-## BFS代码展示
+## BFS Answer
 
 不多说了，直接发代码吧
 
-### **普通版**
+### **Origin**
 
 ```c++
 #include <iostream>
@@ -327,7 +325,7 @@ int main() {
 
 最后再附上面向对象版吧！
 
-### **面向对象版**
+### **Object oriented**
 
 ~~数组懒得初始化，自己去封装到类里(╹ڡ╹ )~~
 
@@ -449,7 +447,7 @@ int main() {
 
 
 
-## 最后
+## Final
 
 什么？还有最后？
 
