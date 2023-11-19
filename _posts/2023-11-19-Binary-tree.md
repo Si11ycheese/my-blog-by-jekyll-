@@ -3,8 +3,7 @@ title: 二分查找树及其相关操作
 author: Sillycheese
 date: 2023-11-19 21:00:00 +0800
 categories: [数据结构和算法相关,关于二分查找树]
-tags: [Binary Search，tree，c++]
-
+tags: [Binary Search,tree,c++]
 ---
 
 a最近学到了查找技术这里，在学完折半查找情况下，也顺便学了下二分查找树。当然未来也肯定会学习B树的。
