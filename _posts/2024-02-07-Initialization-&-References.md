@@ -46,7 +46,8 @@ auto [a, b] = p;
 std::make_pair(...);
 ```
 
-> This works for regular structs, too. Also, no nested structured binding.{: .prompt-tip }
+> This works for regular structs, too. Also, no nested structured binding.
+{: .prompt-tip }
 ## Reference
 Reference: An alias (another name) for a named variable
 ```
@@ -82,9 +83,10 @@ cout << ref << endl; // {1, 2, 3, 5}
 ## Const and Const References
 `const` indicates a variable can’t be modified!
 ## Recap
+
 > Remember: C++, by default, makes copies when we do variable assignment! We
- need to use & if we need references instead. 
- {: .prompt-info }
+need to use & if we need references instead. 
+{: .prompt-info }
 ### When do we use references/const references?
 - If we’re working with a variable that takes up little space in memory (e.g. int, double), we don’t need to use a reference and can just copy the variable
 - If we need to alias the variable to modify it, we can  use references
