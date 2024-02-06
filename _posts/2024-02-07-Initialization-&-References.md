@@ -22,10 +22,10 @@ int x{5}; string f{"Sarah"};
 ## Auto
 Keyword used in  lieu of type when  declaring a variable, tells  the compiler to deduce  the type.
 简单来说便是用来定义变量的，变量的类型会被编译器推导。
->Don’t overuse auto
+> Don’t overuse auto
 {: .prompt-warning }
 
->Can’t deduce the type b/c no value provided
+> Can’t deduce the type b/c no value provided
 {:.prompt-warning }
 ## Structured Binding  
 Structured binding lets you initialize directly from the contents of a struct.
@@ -46,7 +46,7 @@ auto [a, b] = p;
 std::make_pair(...);
 ```
 
->This works for regular structs, too. Also, no nested structured binding.{: .prompt-tip }
+> This works for regular structs, too. Also, no nested structured binding.{: .prompt-tip }
 ## Reference
 Reference: An alias (another name) for a named variable
 ```
@@ -77,13 +77,14 @@ cout << copy << endl; // {1, 2, 4}
 cout << ref << endl; // {1, 2, 3, 5}  
 ```
 
->`=`automatically makes a copy! Must use & to avoid this.
+> `=`automatically makes a copy! Must use & to avoid this.
 {: .prompt-tip }
 ## Const and Const References
 `const` indicates a variable can’t be modified!
 ## Recap
 > Remember: C++, by default, makes copies when we do variable assignment! We
- need to use & if we need references instead. {: .prompt-info }
+ need to use & if we need references instead. 
+ {: .prompt-info }
 ### When do we use references/const references?
 - If we’re working with a variable that takes up little space in memory (e.g. int, double), we don’t need to use a reference and can just copy the variable
 - If we need to alias the variable to modify it, we can  use references
