@@ -46,7 +46,7 @@ auto [a, b] = p;
 std::make_pair(...);
 ```
 
-> This works for regular structs, too. Also, no nested structured binding.
+>This works for regular structs, too. Also, no nested structured binding.
 {: .prompt-tip }
 ## Reference
 Reference: An alias (another name) for a named variable
