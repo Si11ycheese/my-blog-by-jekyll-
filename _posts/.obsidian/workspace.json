@@ -128,17 +128,9 @@
                 "file": "2024-02-14-Generics.md"
               }
             }
-          },
-          {
-            "id": "a916944feabff97e",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -152,11 +144,10 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-day-planner:Timeline": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "e9c0d414a869d655",
+  "active": "f7d5c5fde4425773",
   "lastOpenFiles": [
     "2023-11-29-inside-school.md",
     "2024-02-14-Generics.md",
