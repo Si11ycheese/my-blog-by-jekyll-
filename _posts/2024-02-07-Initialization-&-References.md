@@ -5,8 +5,7 @@ date: 2024-02-06 00:00:00 +0800
 categories:
   - 语言相关
   - 关于真正的C++
-tags:
-  - C++
+tags: []
 ---
 ## Uniform initialization
 curly bracket initialization. Available for all types, immediate initialization on declaration!
