@@ -8,7 +8,7 @@ categories:
 tags:
   - cpp
 ---
-## **All containers are collections of objects**
+ **All containers are collections of objects**
 All containers implement iterators, but they’re not all the same!
 
 - All iterators implement a few shared operations:
@@ -47,10 +47,7 @@ If you want to access the data stored at a pointer’s address,
 dereference it using an asterisk again.
 
 ## What’s the difference?
-● Iterators are a type of pointer!  
-● Iterators have to point to elements in a container, but  
-pointers can point to any object!  
-- Why is this? All objects stored inside the big  
-container known as memory!  
-● Can access memory addresses with & and the data at  
-an address/pointer using *  
+- Iterators are a type of pointer!  
+- Iterators have to point to elements in a container, but pointers can point to any object!  
+	- Why is this? All objects stored inside the big container known as memory!  
+- Can access memory addresses with & and the data at an address/pointer using *  
