@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-02-15-Streams.md",
+                "file": "2024-02-17-Iterators-and-Pointers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-02-15-Streams.md",
+                "file": "2024-02-17-Iterators-and-Pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-02-15-Streams.md",
+                "file": "2024-02-17-Iterators-and-Pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-02-15-Streams.md"
+                "file": "2024-02-17-Iterators-and-Pointers.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "03f176bdaf0d9d6e",
   "lastOpenFiles": [
-    "2024-02-14-Generics.md",
     "2024-02-15-Streams.md",
+    "2024-02-17-Iterators-and-Pointers.md",
+    "2024-02-14-Generics.md",
     "2024-02-07-Initialization-&-References.md",
     "2024-02-15.md",
     "2023-11-29-inside-school.md",
