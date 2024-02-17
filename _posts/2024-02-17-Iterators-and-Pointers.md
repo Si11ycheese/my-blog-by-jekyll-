@@ -10,6 +10,7 @@ tags:
 ---
 **All containers are collections of objects**
 All containers implement iterators, but they’re not all the same!
+
 - All iterators implement a few shared operations:
 	- Initializing -> iter = s.begin();
 	- Incrementing -> ++iter;
