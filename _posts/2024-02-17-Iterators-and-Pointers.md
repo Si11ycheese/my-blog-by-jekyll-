@@ -1,14 +1,14 @@
 ---
 title: Iterators and Pointers
 author: Sillycheese
-date: 2024-02-18 01:00:00 +0800
+date: 2024-02-17 12:00:00 +0800
 categories:
   - 语言相关
   - 关于真正的C++
 tags:
   - cpp
 ---
-**All containers are collections of objects**
+## **All containers are collections of objects**
 All containers implement iterators, but they’re not all the same!
 
 - All iterators implement a few shared operations:
