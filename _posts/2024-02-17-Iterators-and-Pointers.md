@@ -22,7 +22,7 @@ All containers implement iterators, but they’re not all the same!
 Structured binding 是 C++17 引入的一个特性，它允许将一个结构化的数据类型（如 std::tuple 或 std::pair）分解为单独的变量。这样，可以更方便地访问和使用这些变量，而不必显式地使用 std::get 或其他方式。
 例子：
 ```
-std::map<int, int> map{{1, 6}, {2, 8}, {0, 3}, {3,9}};  
+std::map<int, int> map{ {1,6}, {2,8}, {0,3}, {3,9} };  
 for(auto iter = map.begin(); iter != map.end(); iter++) {  
 const auto& [key, value] = *iter; // structured binding!  
 }
