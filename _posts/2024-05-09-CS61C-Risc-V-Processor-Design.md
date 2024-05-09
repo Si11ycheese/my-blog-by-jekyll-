@@ -8,7 +8,7 @@ tags:
   - Architecture
 ---
 
-友情链接：[MIPS指令结构]([MIPS 指令系统简易入门 | CosmosNing 的个人博客](https://cosmosning.github.io/2019/11/12/mips-zhi-ling-xi-tong-jian-yi-ru-men/))
+友情链接：[MIPS指令结构](https://cosmosning.github.io/2019/11/12/mips-zhi-ling-xi-tong-jian-yi-ru-men/)
 
 ## CPU
 
