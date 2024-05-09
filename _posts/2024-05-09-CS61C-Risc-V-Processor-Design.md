@@ -30,19 +30,19 @@ tags:
 
 ### How to Build a Datapath
 
-![image-20240509191531569](/_posts/pic/image-20240509191531569.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509191531569.png){: .normal}
 
 - 寄存器
 - 写使能：为1时在posedge的时候更新为In
 
-​                                                             ![image-20240509192020112](/_posts/pic/image-20240509192020112.png){: .normal}
+​                                                             ![Desktop View](/_posts/pic/image-20240509192020112.png){: .normal}
 
 - 寄存器组（包含32个寄存器）
 - RA用来选择放在busA的寄存器，RB同理
 - RW用来选择要被执行写操作的寄存器（当写使能为1时且写入的数据由busW传递）
 - 当执行读取操作时，寄存器组被视作一个组合逻辑电路（在输出前的延迟时间为乘坐”access time“
 
-![image-20240509192646974](/_posts/pic/image-20240509192646974.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509192646974.png){: .normal}
 
 - 内存
 - 对于读取：地址选择应该被放在Data Out的数据
@@ -51,17 +51,17 @@ tags:
 
 #### Datapath for add/sub
 
-![image-20240509195932535](/_posts/pic/image-20240509195932535.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509195932535.png){: .normal}
 
 #### Datapath With Immediates
 
 在I形指令中，立即数需要做扩展。而扩展的方式分为零扩展与符号扩展（根据编码的不同，扩展的方式也不相同）
 
-![image-20240509202029451](/_posts/pic/image-20240509202029451.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509202029451.png){: .normal}
 
 #### Datapath for Stores
 
-![image-20240509210142003](/_posts/pic/image-20240509210142003.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509210142003.png){: .normal}
 
 #### Implementing Branches
 
@@ -70,7 +70,7 @@ tags:
  - PC=PC+4(非分支)
  - PC=PC+immediate(分支)
 
-![image-20240509212452539](/_posts/pic/image-20240509212452539.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509212452539.png){: .normal}
 
 #### Adding JALR to Datapath
 
@@ -80,13 +80,13 @@ JALR是I形指令（Jump-And-Link-Register)：
  - 将PC+4写入rd
  - 设置PC=rs1+immediate
 
-![image-20240509214341818](/_posts/pic/image-20240509214341818.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509214341818.png){: .normal}
 
 #### Adding JAL
 
 J形式指令（与上面的JALR有一些类似）。不同的地方在于，PC=PC+offset（PC-relative jump)
 
-![image-20240509215137258](/_posts/pic/image-20240509215137258.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509215137258.png){: .normal}
 
 #### Adding U-Types
 
@@ -97,12 +97,12 @@ J形式指令（与上面的JALR有一些类似）。不同的地方在于，PC=
 - lui：load upper immediate
 - auipc：add upper immediate to PC
 
-![image-20240509220202591](/_posts/pic/image-20240509220202591.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509220202591.png){: .normal}
 
 #### Recap Datapath!
 
 到此，Datapath设计完成！
 
-![image-20240509221019335](/_posts/pic/image-20240509221019335.png){: .normal}
+![Desktop View](/_posts/pic/image-20240509221019335.png){: .normal}
 
  
