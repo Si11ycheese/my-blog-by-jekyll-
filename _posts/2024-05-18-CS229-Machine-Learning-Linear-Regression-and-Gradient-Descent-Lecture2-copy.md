@@ -15,7 +15,7 @@ tags:
 To perform supervised learning, we must decide how we’re going to represent functions/hypotheses h in a computer. As an initial choice, let’s say we decide to approximate y as a linear function of x
 
 $$
-hθ(x) = θ₀ + θ₁x₁ + θ₂x₂
+h_{\theta}(x) = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2}
 $$
 
 θ 就是参数，也被称为权重。
