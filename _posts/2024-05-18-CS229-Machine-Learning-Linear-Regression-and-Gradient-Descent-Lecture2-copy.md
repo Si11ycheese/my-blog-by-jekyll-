@@ -1,5 +1,5 @@
 ---
-title:CS229-Machine Learning-Linear Regression and Gradient Descent Lecture2
+title: CS229-Linear Regression and Gradient Descent Lecture2
 author: Sillycheese
 date: 2024/5/18 11:49:51 +0800
 categories:
@@ -70,5 +70,5 @@ $$
 $$
 在这个算法中，我们更新参数只根据error相对于单个的example。This algorithm is called **stochastic gradient descent** (also **incremental gradient descent**).
 
-> Often, stochastic gradient descent gets θ “close” to the minimum much faster than batch gradient descent. {: .prompt-tip }
+> Often, stochastic gradient descent gets θ “close” to the minimum much faster than batch gradient descent.  {: .prompt-tip }
 
