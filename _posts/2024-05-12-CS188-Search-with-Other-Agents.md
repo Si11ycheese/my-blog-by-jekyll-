@@ -89,5 +89,6 @@ Each fi(s) corresponds to a feature extracted from the input state s, and each f
 
 基于 networks 的 nonlinear 的 evaluation function 在强化学习的应用中也十分广泛。
 
-> **The most important thing to keep in mind is that the evaluation function yields higher scores for better positions as frequently as possible.** {: .prompt-tip }
+> **The most important thing to keep in mind is that the evaluation function yields higher scores for better positions as frequently as possible.** 
+{: .prompt-tip }
 
