@@ -2,6 +2,7 @@
 title: CS229-Linear Regression and Gradient Descent Lecture2
 author: Sillycheese
 date: 2024/5/18 11:49:51 +0800
+math: true
 categories:
   - CS229
 tags:
