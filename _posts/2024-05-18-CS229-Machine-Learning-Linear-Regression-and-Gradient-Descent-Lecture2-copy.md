@@ -39,19 +39,18 @@ $$
 We want to choose θ so as to **minimize** J(θ)。
 
 Specifically, let’s consider the gradient descent algorithm, which starts with some initial θ, and repeatedly performs the update:
-
 $$
-\theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta)
+\theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j}J(\theta)
 $$
 
 α is called the **learning rate**.This is a very natural algorithm that repeatedly takes a step in the direction of steepest decrease of J.
 
 $$
 \begin{align*}
-\frac{\partial}{\partial \theta_j} J(\theta) &= \frac{\partial}{\partial \theta_j} \frac{1}{2} (h_{\theta}(x) - y)^2 \\
-&= 2 \cdot \frac{1}{2} (h_{\theta}(x) - y) \cdot \frac{\partial}{\partial \theta_j} (h_{\theta}(x) - y) \\
-&= (h_{\theta}(x) - y) \cdot \frac{\partial}{\partial \theta_j} \left( \sum_{i = 0}^{d} \theta_i x_i - y \right) \\
-&= (h_{\theta}(x) - y) x_j
+ \frac{\partial}{\partial \theta_j} J(\theta) &= \frac{\partial}{\partial  \theta_j} \frac{1}{2} (h_{\theta}(x) - y)^2 \\
+ &= 2 \cdot \frac{1}{2} (h_{\theta}(x) - y) \cdot \frac{\partial}{\partial  \theta_j} (h_{\theta}(x) - y) \\
+ &= (h_{\theta}(x) - y) \cdot \frac{\partial}{\partial \theta_j} \left(  \sum_{i = 0}^{d} \theta_i x_i - y \right) \\
+ &= (h_{\theta}(x) - y) x_j
 \end{align*}
 $$
 
@@ -63,7 +62,7 @@ $$
 
 The rule is called the **LMS** update rule (LMS stands for “least mean squares”), and is also known as the **Widrow-Hoff** learning rule.
 
-magnitude of update 与 **error term**  $(y^{(i)} - h_{\theta}(x^{(i)}))$
+magnitude of update 与 **error term**  $(y^{(i)} - h_{\theta}(x^{(i)}))$ 
 
 有更大的 error 将会对参数发生巨大改变。
 
