@@ -114,6 +114,8 @@ $$
 \frac{1}{2}(X\theta - \vec{y})^T (X\theta - \vec{y}) = \frac{1}{2} \sum_{i=1}^{n} (h_{\theta}(x^{(i)}) - y^{(i)})^2 = J(\theta)
 $$
 最后，为了**minimize** J，让我们进一步推出它的梯度
+
+
 $$
 \begin{align*}
 \nabla_{\theta} J(\theta) &= \nabla_{\theta} \frac{1}{2} (X\theta - \vec{y})^T (X\theta - \vec{y}) \\
@@ -124,6 +126,8 @@ $$
 &= X^T X \theta - X^T \vec{y}
 \end{align*}
 $$
+
+
 为了**minimize** J,我们将它的梯度设置成0，因此得到**normal equations**
 $$
 X^T X \theta = X^T \vec{y}
