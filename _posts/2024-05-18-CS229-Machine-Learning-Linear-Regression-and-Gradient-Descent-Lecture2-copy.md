@@ -40,11 +40,16 @@ $$
 We want to choose θ so as to **minimize** J(θ)。
 
 Specifically, let’s consider the gradient descent algorithm, which starts with some initial θ, and repeatedly performs the update:
+
+
 $$
 \theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j}J(\theta)
 $$
 
+
+
 α is called the **learning rate**.This is a very natural algorithm that repeatedly takes a step in the direction of steepest decrease of J.
+
 
 $$
 \begin{align*}
@@ -55,11 +60,16 @@ $$
 \end{align*}
 $$
 
+
+
 For a single training example, this gives the update rule:
+
 
 $$
 \theta_j := \theta_j + \alpha (y^{(i)} - h_{\theta}(x^{(i)})) x^{(i)}_j
 $$
+
+
 
 The rule is called the **LMS** update rule (LMS stands for “least mean squares”), and is also known as the **Widrow-Hoff** learning rule.
 
@@ -71,15 +81,21 @@ magnitude of update 与 **error term**  $(y^{(i)} - h_{\theta}(x^{(i)}))$
 
 第二种是：
 
+
 $$
 \theta := \theta + \alpha \sum_{i = 1}^{n} (y^{(i)} - h_{\theta}(x^{(i)})) x
 $$
 
+
+
 This method looks at every example in the entire training set on every step, and is called **batch gradient descent**.
+
 
 $$
 \theta := \theta + \alpha (y^{(i)} - h_{\theta}(x^{(i)})) x^{(i)}
 $$
+
+
 
 在这个算法中，我们更新参数只根据 error 相对于单个的 example。This algorithm is called **stochastic gradient descent** (also **incremental gradient descent**).
 
@@ -88,7 +104,8 @@ $$
 
 ### Least squares revisited
 
-因为$h_{\theta}(x^{(i)}) = (x^{(i)})^T \theta$​,我们可以轻易地用矩阵表示
+因为$h_{\theta}(x^{(i)}) = (x^{(i)})^T \theta$​​,我们可以轻易地用矩阵表示
+
 
 
 $$
@@ -113,7 +130,9 @@ h_{\theta}(x^{(n)}) - y^{(n)}
 $$
 
 
-同时，用这个公式$z^T z = \sum_i z_i^2$​，我们能进一步推
+
+同时，用这个公式$z^T z = \sum_i z_i^2$​​，我们能进一步推
+
 
 
 $$
@@ -121,7 +140,9 @@ $$
 $$
 
 
+
 最后，为了**minimize** J，让我们进一步推出它的梯度
+
 
 $$
 \begin{align*}
@@ -133,6 +154,8 @@ $$
 &= X^T X \theta - X^T \vec{y}
 \end{align*}
 $$
+
+
 
 为了**minimize** J,我们将它的梯度设置成0，因此得到**normal equations**
 
@@ -220,5 +243,9 @@ $$
 
 这就是被称为$J(\theta)$的函数，也就是我们最初的least squares cost function.
 
-注意，我们对于参数的选择不取决于$\sigma^2$,且事实上我们可能得到相同的结果即使$\sigma^2$是未知的
+注意，我们对于参数的选择不取决于$\sigma^2$,且事实上我们可能得到相同的结果即使$\sigma^2$​是未知的
+
+### Locally weighted linear regression
+
+
 
