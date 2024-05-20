@@ -134,14 +134,91 @@ $$
 \end{align*}
 $$
 
-
 为了**minimize** J,我们将它的梯度设置成0，因此得到**normal equations**
+
+
 $$
 X^T X \theta = X^T \vec{y}
 $$
+
+
 同时，得到θ的值
 $$
 \theta = ({X^T X})^{-1}X^T \vec{y}
 $$
 
+
+
 ### Probabilistic interpretation
+
+In this section,你将看到一系列的probabilistic assumptions，在这之下，**least-squares regression**将会十分自然的衍生出来。
+
+
+$$
+y^{(i)} = \theta^T x^{(i)} + \epsilon^{(i)}
+$$
+
+
+在这里面，$\epsilon^{(i)}$​是error(unmodeled effects or random noise)。我们可以用正态分布来表示这个assumption。
+
+
+$$
+p(\epsilon^{(i)}) = \frac{1}{\sqrt{2\pi}\sigma} \exp \left( - \frac{(\epsilon^{(i)})^2}{2\sigma^2} \right)
+$$
+
+
+这意味着
+
+
+$$
+p(y^{(i)}|x^{(i)};\theta) = \frac{1}{\sqrt{2\pi}\sigma} \exp \left( - \frac{(y^{(i)}-\theta^{T}x^{(i)})^2}{2\sigma^2} \right)
+$$
+
+
+注意：$\theta$不是一个随机变量
+
+因此，根据上面的assumption，我们可以进一步推出$p(\vec{y}|X;\theta)$,我们会将它称为**likelihood** function
+
+
+$$
+L(\theta)=L(\theta;X,\vec{y})=p(\vec{y}|X;\theta)
+$$
+
+
+根据独立性，这也可以被写为
+
+
+$$
+L(\theta) = \prod_{i=1}^{n} p(y^{(i)} | x^{(i)}; \theta) = \prod_{i=1}^{n} \frac{1}{\sqrt{2\pi}\sigma} \exp \left( - \frac{(y^{(i)} - \theta^T x^{(i)})^2}{2\sigma^2} \right)
+$$
+
+
+对于我们如何选择最好的参数，我们可以用**maximum likelihood**法则，也就是选择一个参数来使得data的概率越高越好。
+
+也就是，我们要挑选一个参数来**maximize** $L(\theta)$
+
+我们可以maximize任意strictly increasing function of $L(\theta)$。比如，我们可以使用 **log likelihood** 来替代。
+
+
+$$
+\begin{align*}
+\log L(\theta) &= \log \left( \prod_{i=1}^{n} \frac{1}{\sqrt{2\pi}\sigma} \exp \left( - \frac{(y^{(i)} - \theta^T x^{(i)})^2}{2\sigma^2} \right) \right) \\
+&= \sum_{i=1}^{n} \log \left( \frac{1}{\sqrt{2\pi}\sigma} \exp \left( - \frac{(y^{(i)} - \theta^T x^{(i)})^2}{2\sigma^2} \right) \right) \\
+&= \sum_{i=1}^{n} \left( \log \left( \frac{1}{\sqrt{2\pi}\sigma} \right) - \frac{1}{\sigma^2} \cdot \frac{1}{2} (y^{(i)} - \theta^T x^{(i)})^2 \right) \\
+&= n \log \left( \frac{1}{\sqrt{2\pi}\sigma} \right) - \frac{1}{\sigma^2} \cdot \frac{1}{2} \sum_{i=1}^{n} (y^{(i)} - \theta^T x^{(i)})^2
+\end{align*}
+$$
+
+
+所以，我们要maximize$L(\theta)$只需要minimize:
+
+
+$$
+\frac{1}{2} \sum_{i=1}^{n} (y^{(i)} - \theta^T x^{(i)})^2
+$$
+
+
+这就是被称为$J(\theta)$的函数，也就是我们最初的least squares cost function.
+
+注意，我们对于参数的选择不取决于$\sigma^2$,且事实上我们可能得到相同的结果即使$\sigma^2$是未知的
+
