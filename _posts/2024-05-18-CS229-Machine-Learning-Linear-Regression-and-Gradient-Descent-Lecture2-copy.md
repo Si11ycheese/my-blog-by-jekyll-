@@ -86,3 +86,51 @@ $$
 > Often, stochastic gradient descent gets θ “close” to the minimum much faster than batch gradient descent. 
 {: .prompt-tip }
 
+### Least squares revisited
+
+因为$h_{\theta}(x^{(i)}) = (x^{(i)})^T \theta$,我们可以轻易地用矩阵表示
+$$
+X\theta - \vec{y} = 
+\begin{bmatrix}
+(x^{(1)})^T \theta \\
+\vdots \\
+(x^{(n)})^T \theta 
+\end{bmatrix}
+-
+\begin{bmatrix}
+y^{(1)} \\
+\vdots \\
+y^{(n)} 
+\end{bmatrix}
+=
+\begin{bmatrix}
+h_{\theta}(x^{(1)}) - y^{(1)} \\
+\vdots \\
+h_{\theta}(x^{(n)}) - y^{(n)}
+\end{bmatrix}
+$$
+同时，用这个公式$z^T z = \sum_i z_i^2$，我们能进一步推
+$$
+\frac{1}{2}(X\theta - \vec{y})^T (X\theta - \vec{y}) = \frac{1}{2} \sum_{i=1}^{n} (h_{\theta}(x^{(i)}) - y^{(i)})^2 = J(\theta)
+$$
+最后，为了**minimize** J，让我们进一步推出它的梯度
+$$
+\begin{align*}
+\nabla_{\theta} J(\theta) &= \nabla_{\theta} \frac{1}{2} (X\theta - \vec{y})^T (X\theta - \vec{y}) \\
+&= \frac{1}{2} \nabla_{\theta} \left((X\theta)^T X\theta - (X\theta)^T \vec{y} - \vec{y}^T (X\theta) + \vec{y}^T \vec{y}\right) \\
+&= \frac{1}{2} \nabla_{\theta} \left(\theta^T (X^T X) \theta - \vec{y}^T (X\theta) - \vec{y}^T (X\theta)\right) \\
+&= \frac{1}{2} \nabla_{\theta} \left(\theta^T (X^T X) \theta - 2 (X^T \vec{y})^T \theta\right) \\
+&= \frac{1}{2} \left(2 X^T X \theta - 2 X^T \vec{y}\right) \\
+&= X^T X \theta - X^T \vec{y}
+\end{align*}
+$$
+为了**minimize** J,我们将它的梯度设置成0，因此得到**normal equations**
+$$
+X^T X \theta = X^T \vec{y}
+$$
+同时，得到θ的值
+$$
+\theta = ({X^T X})^{-1}X^T \vec{y}
+$$
+
+### Probabilistic interpretation
