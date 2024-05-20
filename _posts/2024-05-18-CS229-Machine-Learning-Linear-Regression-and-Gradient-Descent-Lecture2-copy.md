@@ -88,7 +88,9 @@ $$
 
 ### Least squares revisited
 
-因为$h_{\theta}(x^{(i)}) = (x^{(i)})^T \theta$,我们可以轻易地用矩阵表示
+因为$h_{\theta}(x^{(i)}) = (x^{(i)})^T \theta$​,我们可以轻易地用矩阵表示
+
+
 $$
 X\theta - \vec{y} = 
 \begin{bmatrix}
@@ -109,12 +111,17 @@ h_{\theta}(x^{(1)}) - y^{(1)} \\
 h_{\theta}(x^{(n)}) - y^{(n)}
 \end{bmatrix}
 $$
-同时，用这个公式$z^T z = \sum_i z_i^2$，我们能进一步推
+
+
+同时，用这个公式$z^T z = \sum_i z_i^2$​，我们能进一步推
+
+
 $$
 \frac{1}{2}(X\theta - \vec{y})^T (X\theta - \vec{y}) = \frac{1}{2} \sum_{i=1}^{n} (h_{\theta}(x^{(i)}) - y^{(i)})^2 = J(\theta)
 $$
-最后，为了**minimize** J，让我们进一步推出它的梯度
 
+
+最后，为了**minimize** J，让我们进一步推出它的梯度
 
 $$
 \begin{align*}
