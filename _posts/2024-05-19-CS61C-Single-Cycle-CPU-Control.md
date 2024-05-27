@@ -1,5 +1,5 @@
 ---
-title:CS61C-Single-Cycle-CPU-Control
+title: CS61C-Single Cycle CPU Control
 author: Sillycheese
 date: 2024/5/19 19:49:50 +0800
 categories:
