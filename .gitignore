@@ -17,7 +17,8 @@ package-lock.json
 # IDE configurations
 .idea
 .vscode
+.obsidian
 
 # Misc
-
+novel
 

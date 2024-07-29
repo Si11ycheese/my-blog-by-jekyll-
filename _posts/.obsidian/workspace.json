@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-05-18-CS229-Machine-Learning-Linear-Regression-and-Gradient-Descent-Lecture2-copy.md",
+                "file": "2024-05-11-CMU-15445-Project2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-05-18-CS229-Machine-Learning-Linear-Regression-and-Gradient-Descent-Lecture2-copy.md",
+                "file": "2024-05-11-CMU-15445-Project2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-05-18-CS229-Machine-Learning-Linear-Regression-and-Gradient-Descent-Lecture2-copy.md",
+                "file": "2024-05-11-CMU-15445-Project2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,8 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-05-18-CS229-Machine-Learning-Linear-Regression-and-Gradient-Descent-Lecture2-copy.md"
+                "file": "2024-05-11-CMU-15445-Project2.md"
               }
+            }
+          },
+          {
+            "id": "6598b436ebc25088",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
@@ -149,24 +157,35 @@
   },
   "active": "03f176bdaf0d9d6e",
   "lastOpenFiles": [
-    "2024-05-07-CS229-Lecture1.md",
-    "2024-04-10-About mutex of std.md",
+    "2024-07-24-CS188-note6.md",
+    "2024-05-26-15445-Sorting&Aggregation-Algorithm-copy.md",
+    "2024-03-16-Bit Operation.md",
+    "2024-05-09-CS61C-Risc-V-Processor-Design.md",
+    "2024-05-11-CMU-15445-Project2.md",
+    "2024-05-10-CMU-15445-09.md",
+    "2023-11-19-Binary-tree.md",
+    "2024-01-27-随机世界生成算法.md",
+    "2023-10-22-Huffman-Tree.md",
+    "2024-02-14-Generics.md",
     "2024-02-15-Streams.md",
     "2024-02-17-Iterators-and-Pointers.md",
     "2024-02-18-Class.md",
+    "cs188-su24-note06.pdf",
+    "文献阅读",
+    "novel/文献阅读",
+    "2024-05-12-CS188-Search-with-Other-Agents.md",
+    "2024-05-18-CS229-Machine-Learning-Linear-Regression-and-Gradient-Descent-Lecture2-copy.md",
+    "2024-05-07-CS229-Lecture1.md",
+    "2024-04-10-About mutex of std.md",
     "2024-02-21-Template Classes and Const Correctness.md",
     "2024-02-26-Functions-and-lambdas.md",
     "2023-09-20-Hello-World.md",
-    "2024-03-16-Bit Operation.md",
     "2024-01-19-Sword.md",
     "2024-02-07-Initialization-&-References.md",
-    "2024-02-14-Generics.md",
     "2024-02-15.md",
     "2023-11-29-inside-school.md",
     "2024-02-14.md",
     "未命名.canvas",
-    "2024-02-06.md",
-    "2024-02-02-Autoboxing.md",
-    "2.md"
+    "2024-02-06.md"
   ]
 }
