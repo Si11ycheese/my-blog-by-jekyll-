@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-05-11-CMU-15445-Project2.md",
+                "file": "2024-07-29-web-lab-day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-05-11-CMU-15445-Project2.md",
+                "file": "2024-07-29-web-lab-day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-05-11-CMU-15445-Project2.md",
+                "file": "2024-07-29-web-lab-day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-05-11-CMU-15445-Project2.md"
+                "file": "2024-07-29-web-lab-day1.md"
               }
             }
           },
@@ -138,11 +138,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 361.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -157,11 +157,12 @@
   },
   "active": "03f176bdaf0d9d6e",
   "lastOpenFiles": [
-    "2024-07-24-CS188-note6.md",
+    "2024-05-11-CMU-15445-Project2.md",
     "2024-05-26-15445-Sorting&Aggregation-Algorithm-copy.md",
+    "2024-07-24-CS188-note6.md",
+    "2024-07-29-web-lab-day1.md",
     "2024-03-16-Bit Operation.md",
     "2024-05-09-CS61C-Risc-V-Processor-Design.md",
-    "2024-05-11-CMU-15445-Project2.md",
     "2024-05-10-CMU-15445-09.md",
     "2023-11-19-Binary-tree.md",
     "2024-01-27-随机世界生成算法.md",
@@ -185,7 +186,6 @@
     "2024-02-15.md",
     "2023-11-29-inside-school.md",
     "2024-02-14.md",
-    "未命名.canvas",
-    "2024-02-06.md"
+    "未命名.canvas"
   ]
 }
