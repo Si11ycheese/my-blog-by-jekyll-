@@ -136,9 +136,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "06ba7c42ac7372b7",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -152,14 +160,18 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "03f176bdaf0d9d6e",
   "lastOpenFiles": [
-    "2024-07-30-shell-and-script.md",
-    "2024-08-05-missingSemester04.md",
     "2024-07-24-CS188-note6.md",
+    "2024-08-05-missingSemester04.md",
+    "2024-05-18-CS229-Machine-Learning-Linear-Regression-and-Gradient-Descent-Lecture2-copy.md",
+    "2024-05-07-CS229-Lecture1.md",
+    "2024-07-30-shell-and-script.md",
+    "2023-09-20-Hello-World.md",
     "2024-07-29-web-lab-day1.md",
     "2024-05-11-CMU-15445-Project2.md",
     "2024-05-26-15445-Sorting&Aggregation-Algorithm-copy.md",
@@ -177,12 +189,9 @@
     "文献阅读",
     "novel/文献阅读",
     "2024-05-12-CS188-Search-with-Other-Agents.md",
-    "2024-05-18-CS229-Machine-Learning-Linear-Regression-and-Gradient-Descent-Lecture2-copy.md",
-    "2024-05-07-CS229-Lecture1.md",
     "2024-04-10-About mutex of std.md",
     "2024-02-21-Template Classes and Const Correctness.md",
     "2024-02-26-Functions-and-lambdas.md",
-    "2023-09-20-Hello-World.md",
     "2024-01-19-Sword.md",
     "2024-02-07-Initialization-&-References.md",
     "2024-02-15.md",
