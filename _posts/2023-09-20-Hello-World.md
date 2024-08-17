@@ -2,8 +2,11 @@
 title: Hello World
 author: Sillycheese
 date: 2023-09-20 16:46:00 +0800
-categories: [About,Me]
-tags: [Sillycheese]
+categories:
+  - About
+  - Me
+tags:
+  - Sillycheese
 pin: true
 image:
   path: /common/about_me.jpg

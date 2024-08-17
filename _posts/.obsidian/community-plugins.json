@@ -1,8 +1,8 @@
 [
   "calendar",
   "obsidian-zotero-desktop-connector",
-  "obsidian-annotator",
   "highlightr-plugin",
   "obsidian-markmind",
-  "mermaid-tools"
+  "mermaid-tools",
+  "pdf-plus"
 ]
