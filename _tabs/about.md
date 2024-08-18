@@ -32,7 +32,7 @@ order: 4J
 
 [我的Email]: si11ycheese6680@gmail.com
 
-![Desktop View](/common/about2.jpg){: .normal}
+![Desktop View](/2024/08/18/pACXcTg.jpg){: .normal}
 
 
 

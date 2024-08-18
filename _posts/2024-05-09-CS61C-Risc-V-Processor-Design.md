@@ -30,19 +30,19 @@ tags:
 
 ### How to Build a Datapath
 
-![Desktop View](/common/image-20240509191531569.png){: .normal}
+![Desktop View](/2024/08/18/pACXjpR.png){: .normal}
 
 - 寄存器
 - 写使能：为1时在posedge的时候更新为In
 
-![Desktop View](/common/image-20240509192020112.png){: .normal}
+![Desktop View](/2024/08/18/pACXx6x.png){: .normal}
 
 - 寄存器组（包含32个寄存器）
 - RA用来选择放在busA的寄存器，RB同理
 - RW用来选择要被执行写操作的寄存器（当写使能为1时且写入的数据由busW传递）
 - 当执行读取操作时，寄存器组被视作一个组合逻辑电路（在输出前的延迟时间为乘坐”access time“
 
-![Desktop View](/common/image-20240509192646974.png){: .normal}
+![Desktop View](/2024/08/18/pACXzX6.png){: .normal}
 
 - 内存
 - 对于读取：地址选择应该被放在Data Out的数据
@@ -51,13 +51,13 @@ tags:
 
 #### Datapath for add/sub
 
-![Desktop View](/common/image-20240509195932535.png){: .normal}
+![Desktop View](/2024/08/18/pACjpnK.png){: .normal}
 
 #### Datapath With Immediates
 
 在I形指令中，立即数需要做扩展。而扩展的方式分为零扩展与符号扩展（根据编码的不同，扩展的方式也不相同）
 
-![Desktop View](/common/image-20240509202029451.png){: .normal}
+![Desktop View](/2024/08/18/pACj90O.png){: .normal}
 
 #### Datapath for Stores
 

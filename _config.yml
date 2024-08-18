@@ -74,10 +74,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://s21.ax1x.com'
+img_cdn: 'https://cdn.jsdelivr.net/gh/Si11ycheese/MyGallery@main'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/common/avatar.png"
+avatar: "/img/avatar.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
