@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-09-20-Hello-World.md",
+                "file": "2024-05-19-CS61C-Single-Cycle-CPU-Control.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-09-20-Hello-World.md",
+                "file": "2024-05-19-CS61C-Single-Cycle-CPU-Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-09-20-Hello-World.md",
+                "file": "2024-05-19-CS61C-Single-Cycle-CPU-Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-09-20-Hello-World.md"
+                "file": "2024-05-19-CS61C-Single-Cycle-CPU-Control.md"
               }
             }
           },
@@ -169,18 +169,18 @@
   },
   "active": "c465a8fbcb242eb9",
   "lastOpenFiles": [
+    "2024-05-26-15445-Sorting&Aggregation-Algorithm-copy.md",
+    "2023-09-20-Hello-World.md",
     "2024-05-11-CMU-15445-Project2.md",
     "2024-08-09-cs188-note10.md",
     "2024-08-17-cs188-note13.md",
     "2024-05-09-CS61C-Risc-V-Processor-Design.md",
     "2024-08-07-missingSemester05.md",
-    "2023-09-20-Hello-World.md",
     "2024-07-24-CS188-note6.md",
     "2024-08-05-missingSemester04.md",
     "2024-05-12-CS188-Search-with-Other-Agents.md",
     "2024-05-19-CS61C-Single-Cycle-CPU-Control.md",
     "2024-05-18-CS229-Machine-Learning-Linear-Regression-and-Gradient-Descent-Lecture2-copy.md",
-    "2024-05-26-15445-Sorting&Aggregation-Algorithm-copy.md",
     "2024-07-30-shell-and-script.md",
     "2024.md",
     "2024-05-07-CS229-Lecture1.md",

@@ -41,9 +41,9 @@ Two or more instructions in the pipeline compete for access to a single physical
 - Instructions take it in turns to use resource, some instructions have to stall
 - Add more hardware to machine，and can always solve a structural hazard by adding more hardware
 
-![Desktop View](/common/e856c7a2d8f8b72d699771da35c4bde.png){: .normal}
+![Desktop View](/img/e856c7a2d8f8b72d699771da35c4bde.png){: .normal}
 
-![Desktop View](/common/ed0c3090bb50b425e478906657fe2bf.png){: .normal}
+![Desktop View](/img/ed0c3090bb50b425e478906657fe2bf.png){: .normal}
 
 ##### Summary
 
