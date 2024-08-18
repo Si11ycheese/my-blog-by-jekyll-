@@ -47,7 +47,7 @@ Two or more instructions in the pipeline compete for access to a single physical
 
 ##### Summary
 
-![Desktop View](/common/d0554de548d26a4bcf323910fdf1c64.png){: .normal}
+![Desktop View](/img/d0554de548d26a4bcf323910fdf1c64.png){: .normal}
 
 ### Data Hazards
 
