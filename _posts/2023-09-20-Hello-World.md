@@ -9,7 +9,7 @@ tags:
   - Sillycheese
 pin: true
 image: 
-   path: https://s21.ax1x.com/2024/08/17/pACWYXn.jpg
+   path: /2024/08/17/pACWYXn.jpg
 ---
 
 Hello World! 这是Sillycheese的第一篇博客，也是秘密结社的第一篇博客。你可以在这里找到我的个人笔记与生活记录
