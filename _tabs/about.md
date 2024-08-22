@@ -8,12 +8,13 @@ order: 4J
 
 ## 当前学习
 
-- [ ] CS188 - Project3
-- [ ] CMU15445 - Project2
+- [ ] CS106B
+- [x] CMU15445 - Project2
 - [ ] weblab
+- [ ] CS189
+- [ ] 6.s081
 ## 未来学习
 
-- [ ] 6.s081
 - [ ] CS162
 - [ ] NJU OS
 - [ ] CMU 15-418
@@ -27,6 +28,13 @@ order: 4J
 - [ ] CS161
 - [ ] CS144
 - [ ] CS170
+
+# 已经完成
+
+- [x] CS61A-Project2
+- [x] CS61B
+- [x] CS61C-Project2
+- [x] CS188
 
 如果有任何问题，欢迎来mail我哦！
 
