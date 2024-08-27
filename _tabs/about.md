@@ -4,14 +4,14 @@ icon: fas fa-info-circle
 order: 4J
 ---
 
-> 只是一只学计算机的Sillycheese，身兼秘密结社社长。
+> 只是一只身处无人在意角落的学计算机的Sillycheese，身兼秘密结社社长。
 
 ## 当前学习
 
 - [ ] CS106B-Assignment2
 - [x] CMU15445 - Project2
 - [ ] weblab - lab02
-- [ ] CS189
+- [ ] CS189- Assignment1
 - [ ] 6.s081-Lab02
 ## 未来学习
 
