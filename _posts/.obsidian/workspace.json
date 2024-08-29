@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9b9ad6132be7d51f",
@@ -166,8 +167,9 @@
   },
   "active": "c465a8fbcb242eb9",
   "lastOpenFiles": [
-    "2024-08-27-cs189-note01.md",
+    "source.md",
     "2024-08-28-cs189-hw01.md",
+    "2024-08-27-cs189-note01.md",
     "2024-08-19-cs188-note15.md",
     "2024-08-24-6.s081-note01.md",
     "2024-08-18-cs188-note14.md",
@@ -191,7 +193,6 @@
     "2024-03-16-Bit Operation.md",
     "2024-05-10-CMU-15445-09.md",
     "2023-11-19-Binary-tree.md",
-    "2024-01-27-随机世界生成算法.md",
     "cs188-su24-note06.pdf",
     "文献阅读",
     "novel/文献阅读",
