@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-28-cs189-hw01.md",
+                "file": "2024-09-04-6.s081-note02.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-28-cs189-hw01.md",
+                "file": "2024-09-04-6.s081-note02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-28-cs189-hw01.md",
+                "file": "2024-09-04-6.s081-note02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-28-cs189-hw01.md"
+                "file": "2024-09-04-6.s081-note02.md"
               }
             }
           },
@@ -167,8 +167,9 @@
   },
   "active": "c465a8fbcb242eb9",
   "lastOpenFiles": [
-    "source.md",
     "2024-08-28-cs189-hw01.md",
+    "2024-09-04-6.s081-note02.md",
+    "source.md",
     "2024-08-27-cs189-note01.md",
     "2024-08-19-cs188-note15.md",
     "2024-08-24-6.s081-note01.md",
@@ -192,7 +193,6 @@
     "2024-07-29-web-lab-day1.md",
     "2024-03-16-Bit Operation.md",
     "2024-05-10-CMU-15445-09.md",
-    "2023-11-19-Binary-tree.md",
     "cs188-su24-note06.pdf",
     "文献阅读",
     "novel/文献阅读",
