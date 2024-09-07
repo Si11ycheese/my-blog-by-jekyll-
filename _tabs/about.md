@@ -8,7 +8,7 @@ order: 4J
 
 ## 当前学习
 
-- [ ] CS106B-Assignment2
+- [ ] CS106B-Assignment3
 - [x] CMU15445 - Project2
 - [ ] weblab - lab02
 - [ ] CS189- Assignment1
